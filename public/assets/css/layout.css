@@ -1713,11 +1713,13 @@
   padding: 10em 0;
   background-size: cover;
   background-position: center center;
+  background-color: #222629;
 }
 
 #main > section.one {
-  background-color: #81918e;
-  background-image: url('../../images/banner.jpg');
+  /* background-color: #81918e; */
+  /* background-image: url('../../images/hero-image.jpg'); */
+  background: url('../../images/hero-image.jpg') no-repeat center/cover;
 }
 
 #main > section.two {
